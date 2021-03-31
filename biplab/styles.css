@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin : 0px;
+    padding : 0px;
+    font-family: 'Roboto' , sans-serif;
+}
+
+
+
+
+/* Add a black background color to the top navigation */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+#text_pos{
+  width: 20%;
+  top: 20%;
+  left: 7%;
+  color:black;
+  text-align: justify;
+  font-size: 18px;
+  position: absolute;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
